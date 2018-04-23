@@ -64,7 +64,7 @@ namespace Lshp.BaseWebApi.Mappings
         #region Resource to ResourceViewModel
         public static ResourceView ResourceToResourceViewModel(Resource resource)
         {
-           return AutoMapper.Mapper.Map<ResourceView>(resource);
+           return TESTLAUNCHSHIPAutoMapper.Mapper.Map<ResourceView>(resource);
         }
 
         /// <summary>
@@ -91,6 +91,14 @@ namespace Lshp.BaseWebApi.Mappings
         public static ShareResource ShareResourceViewModelToShareResource(ShareResourceView shareResourceView)
         {
            return AutoMapper.Mapper.Map<ShareResource>(shareResourceView);
+        }
+
+        /// <summary>
+        /// Map from ResourceViewModel to Resource
+        /// </summary>
+        public static ShareResource ShareResourceViewModelToShareResource(ShareResourceView shareResourceView)
+        {
+           return TESTLAUNCHSHIPAutoMapper.Mapper.Map<ShareResource>(shareResourceView);
         }
         #endregion
 

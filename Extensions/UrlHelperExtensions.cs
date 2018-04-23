@@ -25,6 +25,12 @@ namespace Microsoft.AspNetCore.Mvc
 		//TYU\\
 		public static string EmailConfirmationLink(this IUrlHelper urlHelper, string userId, string code, string scheme)
         {
+            TEST Launchship DATA V2
+		}
+        //TYsddU\\
+		public static string EmailConfirmationLink(this IUrlHelper urlHelper, string userId, string code, string scheme)
+        {
+            TEST Launchship DATA V2
 		}
     }
 }
